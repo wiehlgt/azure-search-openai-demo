@@ -1,0 +1,155 @@
+[
+  {
+    "TABLE_NAME": "calls",
+    "COLUMN_NAME": "ID",
+    "DATA_TYPE": "smallint",
+    "ORDINAL_POSITION": 1,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 5,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "calls",
+    "COLUMN_NAME": "RepID",
+    "DATA_TYPE": "tinyint",
+    "ORDINAL_POSITION": 2,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 3,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "calls",
+    "COLUMN_NAME": "DetailCalls",
+    "DATA_TYPE": "tinyint",
+    "ORDINAL_POSITION": 3,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 3,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "calls",
+    "COLUMN_NAME": "SampleCalls",
+    "DATA_TYPE": "tinyint",
+    "ORDINAL_POSITION": 4,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 3,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "calls",
+    "COLUMN_NAME": "VID",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 5,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "name",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 1,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "phone",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 2,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "email",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 3,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "address",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 4,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "postalZip",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 5,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "region",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 6,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "country",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 7,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "TRX",
+    "DATA_TYPE": "tinyint",
+    "ORDINAL_POSITION": 8,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 3,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "VID",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 9,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  },
+  {
+    "TABLE_NAME": "patients",
+    "COLUMN_NAME": "ID",
+    "DATA_TYPE": "smallint",
+    "ORDINAL_POSITION": 10,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 5,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "rep",
+    "COLUMN_NAME": "ID",
+    "DATA_TYPE": "tinyint",
+    "ORDINAL_POSITION": 1,
+    "CHARACTER_MAXIMUM_LENGTH": null,
+    "NUMERIC_PRECISION": 3,
+    "CHARACTER_SET_NAME": null
+  },
+  {
+    "TABLE_NAME": "rep",
+    "COLUMN_NAME": "RepName",
+    "DATA_TYPE": "nvarchar",
+    "ORDINAL_POSITION": 2,
+    "CHARACTER_MAXIMUM_LENGTH": 50,
+    "NUMERIC_PRECISION": null,
+    "CHARACTER_SET_NAME": "UNICODE"
+  }
+]
