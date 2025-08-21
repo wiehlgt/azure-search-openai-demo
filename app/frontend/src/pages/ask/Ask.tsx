@@ -18,6 +18,7 @@ import { useMsal } from "@azure/msal-react";
 import { TokenClaimsDisplay } from "../../components/TokenClaimsDisplay";
 import { LoginContext } from "../../loginContext";
 import { LanguagePicker } from "../../i18n/LanguagePicker";
+import { SqlResultTable } from "../../components/SqlResultTable";
 
 export function Component(): JSX.Element {
     const [isConfigPanelOpen, setIsConfigPanelOpen] = useState(false);
@@ -320,6 +321,8 @@ export function Component(): JSX.Element {
                             showSpeechOutputAzure={showSpeechOutputAzure}
                             showSpeechOutputBrowser={showSpeechOutputBrowser}
                         />
+                        {answer.context?.sql && <pre className={styles.sqlQuery}>{answer.context.sql}</pre>}
+                        {answer.context?.rows && answer.context.rows.length > 0 && <SqlResultTable rows={answer.context.rows} />}
                     </div>
                 )}
                 {error ? (

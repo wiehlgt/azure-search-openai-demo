@@ -687,7 +687,7 @@ async def setup_clients():
 
     # Set up the two default RAG approaches for /ask and /chat
     # RetrieveThenReadApproach is used by /ask for single-turn Q&A
-    current_app.config[CONFIG_ASK_APPROACH] = RetrieveThenReadApproach(
+    current_app.config[CONFIG_ASK_APPROACH] = SqlApproach(
         search_client=search_client,
         search_index_name=AZURE_SEARCH_INDEX,
         agent_model=AZURE_OPENAI_SEARCHAGENT_MODEL,
