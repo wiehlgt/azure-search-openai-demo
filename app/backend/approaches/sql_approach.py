@@ -9,7 +9,8 @@ from approaches.approach import Approach
 class SqlApproach(Approach):
     """Simple approach that converts a natural language question into SQL."""
 
-    def __init__(self, *, openai_client: AsyncOpenAI):
+    def __init__(self, *, openai_client: AsyncOpenAI, **kwargs):
+        super().__init__(openai_client=openai_client, **kwargs)
         self.openai_client = openai_client
 
     async def run(

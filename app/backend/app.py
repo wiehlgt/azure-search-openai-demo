@@ -55,6 +55,7 @@ from approaches.chatreadretrieveread import ChatReadRetrieveReadApproach
 from approaches.chatreadretrievereadvision import ChatReadRetrieveReadVisionApproach
 from approaches.promptmanager import PromptyManager
 from approaches.retrievethenread import RetrieveThenReadApproach
+from approaches.sql_approach import SqlApproach
 from approaches.retrievethenreadvision import RetrieveThenReadVisionApproach
 from chat_history.cosmosdb import chat_history_cosmosdb_bp
 from config import (
