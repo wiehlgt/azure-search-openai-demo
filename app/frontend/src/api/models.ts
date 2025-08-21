@@ -59,6 +59,8 @@ export type ResponseContext = {
     data_points: string[];
     followup_questions: string[] | null;
     thoughts: Thoughts[];
+    sql?: string;
+    rows?: any[];
 };
 
 export type ChatAppResponseOrError = {

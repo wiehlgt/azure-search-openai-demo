@@ -41,6 +41,14 @@
     padding-right: 1rem;
 }
 
+.sqlQuery {
+    margin-top: 1rem;
+    background-color: #f3f2f1;
+    padding: 0.5rem;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
 .askAnalysisPanel {
     width: 37.5rem;
     margin-left: 1.25rem;
